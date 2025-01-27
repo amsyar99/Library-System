@@ -107,8 +107,6 @@ Good to go when:
         - **Response Body**:
             
             ```json
-            json
-            CopyEdit
             {
               "id": 1,
               "title": "The Great Gatsby",
