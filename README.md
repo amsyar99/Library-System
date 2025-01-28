@@ -18,14 +18,6 @@ Execute the script by running the following command:
     If you are using windows please run it, in git bash.
     
 
-Example:
-
-![image.png](attachment:41bae190-5b0e-4966-82be-ae6a54c3c3f6:image.png)
-
-Good to go when:
-
-![image.png](attachment:67d40ca0-dd5f-41b8-a3ed-1d33004c5df8:image.png)
-
 # API Documentation
 
 **Base URL : http://localhost:8080**
