@@ -22,7 +22,7 @@ public class BookController {
 
     @PostMapping("")
     public ResponseEntity<Book> registerBook(@RequestBody Book book) {
-        log.info("Received request to register a new book: {}", book);
+        log.info("Received request to register a new book");
         bookService.validateBookForRegistration(book);
         Book savedBook = bookService.register(book);
         log.info("Book successfully registered with ID: {}", savedBook.getId());

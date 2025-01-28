@@ -42,11 +42,15 @@ public class BookService {
 
     public void validateBookForRegistration(Book book) {
         List<Book> conflictingBooks = bookRepository.findConflictingBooks(
-                book.getIsbn(), book.getTitle(), book.getAuthor()
+                book.getIsbn(),
+                book.getTitle(),
+                book.getAuthor()
         );
 
         if (!conflictingBooks.isEmpty()) {
-            throw new IllegalArgumentException("ISBN conflict: Title/Author mismatch.");
+            throw new IllegalArgumentException(
+                    "ISBN conflict: A book with this ISBN exists with different title/author"
+            );
         }
     }
 

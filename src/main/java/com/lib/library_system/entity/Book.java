@@ -8,7 +8,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Book {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
