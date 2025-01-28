@@ -1,18 +1,24 @@
-# Library-System
-
 ### Running the Application
 
 To successfully run the application, you must execute the provided **`batchScript.sh`** file. This script is responsible for setting up the necessary environment and launching the application.
 
-- **Run the Script**:
+Need to install:
+
+- Java 17 in local environment.
+
+- **Run the Script (Linux/MacOs)**:
 Execute the script by running the following command:
     
     ```bash
     ./batchScript.sh
     ```
     
+- Run the Script (Windows)
+    
+    If you are using windows please run it, in git bash.
+    
 
-exp:
+Example:
 
 ![image.png](attachment:41bae190-5b0e-4966-82be-ae6a54c3c3f6:image.png)
 
@@ -21,6 +27,8 @@ Good to go when:
 ![image.png](attachment:67d40ca0-dd5f-41b8-a3ed-1d33004c5df8:image.png)
 
 # API Documentation
+
+**Base URL : http://localhost:8080**
 
 ### **1. Register a New Book**
 
@@ -107,6 +115,7 @@ Good to go when:
         - **Response Body**:
             
             ```json
+            
             {
               "id": 1,
               "title": "The Great Gatsby",
@@ -186,6 +195,7 @@ General note:
 - Command:
     - Check log : docker logs -f <container_name>
     - Check Container Running: docker ps
+    - Check Image created: docker images
 
 ### Assumptions Documentation:
 
