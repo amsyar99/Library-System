@@ -2,7 +2,7 @@
 
 To successfully run the application, you must execute the provided **`batchScript.sh`** file. This script is responsible for setting up the necessary environment and launching the application.
 
-Need to install:
+<strike>Need to install:
 
 - Java 17 in local environment.
 
@@ -15,7 +15,13 @@ Execute the script by running the following command:
     
 - Run the Script (Windows)
     
-    If you are using windows please run it, in git bash.
+    If you are using windows please run it, in git bash.</strike>
+
+No need to install Java.
+Run backend by running 
+```
+docker compose up -d --build
+```
     
 
 # API Documentation
